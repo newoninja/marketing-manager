@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://marketing-manager-747044709273.us-central1.run.app",
+        "type": 302
+      }
+    ]
+  }
+}
